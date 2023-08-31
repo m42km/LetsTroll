@@ -1,0 +1,22 @@
+name: LetsTroll
+main: io.github.m42km.letstroll.LetsTroll
+version: 1.0.0
+
+commands:
+   woosh:
+      description: Woosh.
+      usage: /woosh <player>
+      permission: letstroll.woosh
+   packrequest:
+      description: Sends a troll resource pack to the player.
+      usage: /packrequest <player> [resource pack URL]
+      permission: letstroll.packrequest
+   fakecreeper:
+      description: Simulates a fake creeper.
+      usage: /fakecreeper <player>
+      permission: letstroll.fakecreeper
+   fakeadvance:
+      description: A fake advancement.
+      usage: /fakecreeper <player> <advancement name> <advancement description>
+      permission: letstroll.fakecreeper
+      
