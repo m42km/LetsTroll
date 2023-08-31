@@ -18,5 +18,5 @@ commands:
    fakeadvance:
       description: A fake advancement.
       usage: /fakecreeper <player> <advancement name> <advancement description>
-      permission: letstroll.fakecreeper
+      permission: letstroll.fakeadvance
       
